@@ -1,0 +1,78 @@
+body,h1,h2,p,label,input,
+button{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    max-width: auto;
+    background-color: rgb(255, 217, 182);
+    background-image: url(backg.jpg);
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+header{
+   
+    background-color: rgb(255, 255, 191);
+    color: rgb(231, 164, 101);
+    text-align: center;
+    padding: 1rem;
+    background-image: url(backg.jpg);
+    background-repeat: no-repeat;
+}
+main{
+    padding: 2rem;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: black;
+    color: white;
+    margin-top:auto ;
+}
+.signup-form, .signin-form{
+    max-width: 300px;
+    margin: 0 auto;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 13px;
+    background-color: rgba(128, 128, 128, 0.233);
+}
+button{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: rgb(221, 185, 161);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(97, 82, 185, 0.342);
+}
+.logbutton{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: rgb(100, 158, 67);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
